@@ -1,0 +1,32 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+  background: #202020;
+}
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.line {
+  background: white;
+  width: 2px;
+}
+
+#menu {
+  display: block;
+  overflow: auto;
+  background: black;
+  color: white;
+  width: 68vw;
+  height: 68vh;
+  border-radius: 4vh;
+  padding: 4vh 4vw 4vh 4vw;
+}
+
+#menu input {
+  width: 11%;
+}
